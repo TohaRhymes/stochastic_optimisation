@@ -13,7 +13,8 @@ Required packages: `numpy (1.19.2+)`, `matplotlib (3.2.2+)`
 * `stochastic_tool.py` - tool, that can generate datasets with points of any dimension and run Stochastic Optimization Methods on it
 
 ### Parameters for stochastic_tool.py:
-GENERATING-mode
+__GENERATING-mode__
+
 If you want to generate csv-file with points, use generate command:
 
 `python3 stochastic_tool.py generate <amount of points> <dimension of space>`
@@ -21,7 +22,8 @@ If you want to generate csv-file with points, use generate command:
     - <amount of points> (int) -  amount of rows, that will be generated, each row - one point.
     - <dimension of space> (int) - dimension of generated point's space.
     
-OPTIMIZATION-mode
+__OPTIMIZATION-mode__
+
 If you want to optimize way, using  existing csv-file with points of any dimension, use:
 
 `python3 stochastic_tool.py optimize <input file> <method> <iterations> <distance_method>`
