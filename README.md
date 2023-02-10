@@ -1,6 +1,7 @@
 ## Comparative Analysis of Stochastic Optimization Methods
 ### (+ simple tool:))
 
+I presented this project at the international conference MICSECS-2020 (Mayorov Readings) and won Best Report Award for my report "Comparative Analysis of Stochastic Optimization Methods".
 
 This is a project with the implementation of common stochastic optimization methods on the example of the traveling salesman problem on Python v3.7+.
 
